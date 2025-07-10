@@ -1,0 +1,199 @@
+2025-03-08 17:51:23,704 - ThreatScanUsb - INFO - Starting ThreatScanUsb application
+2025-03-08 17:51:24,776 - ThreatScanUsb.Config - INFO - No configuration file found at C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json, using defaults
+2025-03-08 17:51:24,776 - ThreatScanUsb.Config - INFO - Saved configuration to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 17:51:24,778 - ThreatScanUsb.Scanner - ERROR - Error loading YARA rules: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+Traceback (most recent call last):
+  File "c:\Users\cerxx\Desktop\ThreatScanUsb\src\scanner.py", line 89, in __init__
+    self.yara_rules = yara.compile(filepaths={
+                      ~~~~~~~~~~~~^^^^^^^^^^^^
+        f.stem: str(f) for f in yara_rules_path.glob('*.yar')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+yara.SyntaxError: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+2025-03-08 17:51:24,786 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 17:51:24,848 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 17:51:25,591 - ThreatScanUsb.USBMonitor - INFO - USB monitoring loop started
+2025-03-08 17:51:25,591 - ThreatScanUsb.USBMonitor - INFO - USB monitoring started
+2025-03-08 17:51:55,817 - ThreatScanUsb.USBMonitor - INFO - New USB drive detected: D:
+2025-03-08 17:51:55,965 - ThreatScanUsb.USBMonitor - INFO - New USB drive: D: - ESD-USB
+2025-03-08 17:51:55,966 - ThreatScanUsb.Scanner - INFO - Starting scan of D:
+2025-03-08 17:51:55,966 - ThreatScanUsb.Scanner - INFO - Started scan of device: D:
+2025-03-08 17:51:55,966 - ThreatScanUsb.Scanner - INFO - Found 3 files to scan on D:
+2025-03-08 17:51:56,082 - ThreatScanUsb.Scanner - INFO - Scan of D: completed in 0.1 seconds
+2025-03-08 17:51:56,082 - ThreatScanUsb.Scanner - INFO - Scan results: 3 files scanned, 0 threats found
+2025-03-08 17:53:28,404 - ThreatScanUsb.USBMonitor - INFO - Stopping USB monitoring...
+2025-03-08 17:53:28,405 - ThreatScanUsb.USBMonitor - INFO - USB monitoring stopped
+2025-03-08 18:02:38,586 - ThreatScanUsb - INFO - Starting ThreatScanUsb application
+2025-03-08 18:02:38,587 - ThreatScanUsb - INFO - Application directory: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-03-08 18:02:39,161 - ThreatScanUsb.Config - INFO - Application directory set to: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-03-08 18:02:39,162 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:02:39,163 - ThreatScanUsb.Scanner - ERROR - Error loading YARA rules: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+Traceback (most recent call last):
+  File "C:\Users\cerxx\Desktop\ThreatScanUsb\src\scanner.py", line 99, in __init__
+    self.yara_rules = yara.compile(filepaths={
+                      ~~~~~~~~~~~~^^^^^^^^^^^^
+        f.stem: str(f) for f in rule_files
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+yara.SyntaxError: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+2025-03-08 18:02:39,165 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:02:39,185 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:02:39,272 - ThreatScanUsb.USBMonitor - INFO - USB monitoring loop started
+2025-03-08 18:02:39,272 - ThreatScanUsb.USBMonitor - INFO - USB monitoring started
+2025-03-08 18:02:39,272 - ThreatScanUsb.USBMonitor - INFO - New USB drive detected: D:
+2025-03-08 18:02:39,272 - ThreatScanUsb.USBMonitor - INFO - New USB drive: D: - ESD-USB
+2025-03-08 18:02:39,273 - ThreatScanUsb.Scanner - INFO - Starting scan of D:
+2025-03-08 18:02:39,273 - ThreatScanUsb.Scanner - INFO - Started scan of device: D:
+2025-03-08 18:02:39,273 - ThreatScanUsb.Scanner - INFO - Found 3 files to scan on D:
+2025-03-08 18:02:39,294 - ThreatScanUsb.Scanner - INFO - Scan of D: completed in 0.0 seconds
+2025-03-08 18:02:39,295 - ThreatScanUsb.Scanner - INFO - Scan results: 3 files scanned, 0 threats found
+2025-03-08 18:02:39,296 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-180239.json
+2025-03-08 18:02:50,237 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/FlynF5
+2025-03-08 18:02:50,237 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/FlynF5
+2025-03-08 18:02:50,242 - ThreatScanUsb.Scanner - INFO - Found 106 files to scan on C:/Users/cerxx/Desktop/FlynF5
+2025-03-08 18:02:51,911 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/FlynF5 completed in 1.7 seconds
+2025-03-08 18:02:51,913 - ThreatScanUsb.Scanner - INFO - Scan results: 106 files scanned, 0 threats found
+2025-03-08 18:02:51,914 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-180251.json
+2025-03-08 18:03:21,210 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:03:21,211 - ThreatScanUsb.Config - INFO - Saved configuration to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:03:24,339 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:03:24,340 - ThreatScanUsb.Config - INFO - Saved configuration to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:03:36,462 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/FlynF5/FiveM-External
+2025-03-08 18:03:36,462 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/FlynF5/FiveM-External
+2025-03-08 18:03:36,465 - ThreatScanUsb.Scanner - INFO - Found 101 files to scan on C:/Users/cerxx/Desktop/FlynF5/FiveM-External
+2025-03-08 18:03:37,144 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/FlynF5/FiveM-External completed in 0.7 seconds
+2025-03-08 18:03:37,144 - ThreatScanUsb.Scanner - INFO - Scan results: 101 files scanned, 0 threats found
+2025-03-08 18:03:37,146 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-180337.json
+2025-03-08 18:05:24,925 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/FlynF5/x64/Release
+2025-03-08 18:05:24,925 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/FlynF5/x64/Release
+2025-03-08 18:05:24,925 - ThreatScanUsb.Scanner - INFO - Found 2 files to scan on C:/Users/cerxx/Desktop/FlynF5/x64/Release
+2025-03-08 18:05:24,933 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/FlynF5/x64/Release completed in 0.0 seconds
+2025-03-08 18:05:24,934 - ThreatScanUsb.Scanner - INFO - Scan results: 2 files scanned, 0 threats found
+2025-03-08 18:05:24,936 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-180524.json
+2025-03-08 18:06:24,331 - ThreatScanUsb.USBMonitor - INFO - Stopping USB monitoring...
+2025-03-08 18:06:24,332 - ThreatScanUsb.USBMonitor - INFO - USB monitoring stopped
+2025-03-08 18:06:28,115 - ThreatScanUsb.Scanner - INFO - Starting scan of D:
+2025-03-08 18:06:28,115 - ThreatScanUsb.Scanner - INFO - Started scan of device: D:
+2025-03-08 18:06:28,115 - ThreatScanUsb.Scanner - INFO - Found 3 files to scan on D:
+2025-03-08 18:06:28,124 - ThreatScanUsb.Scanner - INFO - Scan of D: completed in 0.0 seconds
+2025-03-08 18:06:28,126 - ThreatScanUsb.Scanner - INFO - Scan results: 3 files scanned, 0 threats found
+2025-03-08 18:06:28,128 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-180628.json
+2025-03-08 18:14:58,020 - ThreatScanUsb - INFO - Starting ThreatScanUsb application
+2025-03-08 18:14:58,021 - ThreatScanUsb - INFO - Application directory: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-03-08 18:14:58,641 - ThreatScanUsb.Config - INFO - Application directory set to: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-03-08 18:14:58,647 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:15:00,699 - ThreatScanUsb.Scanner - WARNING - ClamAV daemon not available: could not connect to clamd server either by unix or network socket
+2025-03-08 18:15:00,701 - ThreatScanUsb.Scanner - ERROR - Error loading YARA rules: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+Traceback (most recent call last):
+  File "C:\Users\cerxx\Desktop\ThreatScanUsb\src\scanner.py", line 389, in __init__
+    self.yara_rules = yara.compile(filepaths={
+                      ~~~~~~~~~~~~^^^^^^^^^^^^
+        f.stem: str(f) for f in rule_files
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+yara.SyntaxError: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+2025-03-08 18:15:00,703 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:15:00,727 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-03-08 18:15:00,826 - ThreatScanUsb.USBMonitor - INFO - USB monitoring loop started
+2025-03-08 18:15:00,826 - ThreatScanUsb.USBMonitor - INFO - USB monitoring started
+2025-03-08 18:15:00,826 - ThreatScanUsb.USBMonitor - INFO - New USB drive detected: D:
+2025-03-08 18:15:00,826 - ThreatScanUsb.USBMonitor - INFO - New USB drive: D: - ESD-USB
+2025-03-08 18:15:00,827 - ThreatScanUsb.Scanner - INFO - Starting scan of D:
+2025-03-08 18:15:00,827 - ThreatScanUsb.Scanner - INFO - Started scan of device: D:
+2025-03-08 18:15:00,827 - ThreatScanUsb.Scanner - INFO - Found 3 files to scan on D:
+2025-03-08 18:15:02,040 - ThreatScanUsb.Scanner - INFO - Scan of D: completed in 1.2 seconds
+2025-03-08 18:15:02,040 - ThreatScanUsb.Scanner - INFO - Scan results: 3 files scanned, 0 threats found
+2025-03-08 18:15:02,041 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-181502.json
+2025-03-08 18:15:22,017 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/FlynF5/x64/Release
+2025-03-08 18:15:22,017 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/FlynF5/x64/Release
+2025-03-08 18:15:22,018 - ThreatScanUsb.Scanner - INFO - Found 3 files to scan on C:/Users/cerxx/Desktop/FlynF5/x64/Release
+2025-03-08 18:15:23,001 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/FlynF5/x64/Release completed in 1.0 seconds
+2025-03-08 18:15:23,001 - ThreatScanUsb.Scanner - INFO - Scan results: 3 files scanned, 0 threats found
+2025-03-08 18:15:23,003 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250308-181523.json
+2025-07-10 12:56:21,390 - ThreatScanUsb - INFO - Starting ThreatScanUsb application
+2025-07-10 12:56:21,391 - ThreatScanUsb - INFO - Application directory: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-07-10 12:56:22,770 - ThreatScanUsb.Config - INFO - Application directory set to: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-07-10 12:56:22,777 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:56:24,812 - ThreatScanUsb.Scanner - WARNING - ClamAV daemon not available: could not connect to clamd server either by unix or network socket
+2025-07-10 12:56:24,812 - ThreatScanUsb.Scanner - WARNING - YARA rules directory not found: resources/yara_rules
+2025-07-10 12:56:24,813 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:56:24,870 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:56:26,178 - ThreatScanUsb.USBMonitor - INFO - USB monitoring loop started
+2025-07-10 12:56:26,178 - ThreatScanUsb.USBMonitor - INFO - USB monitoring started
+2025-07-10 12:56:46,421 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/Base External_[unknowncheats.me]_
+2025-07-10 12:56:46,421 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/Base External_[unknowncheats.me]_
+2025-07-10 12:56:46,424 - ThreatScanUsb.Scanner - INFO - Found 33 files to scan on C:/Users/cerxx/Desktop/Base External_[unknowncheats.me]_
+2025-07-10 12:56:47,595 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/Base External_[unknowncheats.me]_ completed in 1.2 seconds
+2025-07-10 12:56:47,595 - ThreatScanUsb.Scanner - INFO - Scan results: 33 files scanned, 0 threats found
+2025-07-10 12:56:47,596 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250710-125647.json
+2025-07-10 12:57:13,295 - ThreatScanUsb.USBMonitor - INFO - Stopping USB monitoring...
+2025-07-10 12:57:13,296 - ThreatScanUsb.USBMonitor - INFO - USB monitoring stopped
+2025-07-10 12:57:22,194 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/eclipsecolor
+2025-07-10 12:57:22,194 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/eclipsecolor
+2025-07-10 12:57:22,201 - ThreatScanUsb.Scanner - INFO - Found 123 files to scan on C:/Users/cerxx/Desktop/eclipsecolor
+2025-07-10 12:57:29,315 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/eclipsecolor completed in 7.1 seconds
+2025-07-10 12:57:29,315 - ThreatScanUsb.Scanner - INFO - Scan results: 123 files scanned, 2 threats found
+2025-07-10 12:57:29,316 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250710-125729.json
+2025-07-10 12:58:03,670 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:58:03,671 - ThreatScanUsb.Config - INFO - Saved configuration to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:58:07,893 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:58:07,894 - ThreatScanUsb.Config - INFO - Saved configuration to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:58:10,916 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 12:58:10,916 - ThreatScanUsb.Config - INFO - Saved configuration to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:02:11,376 - ThreatScanUsb - INFO - Starting ThreatScanUsb application
+2025-07-10 13:02:11,376 - ThreatScanUsb - INFO - Application directory: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-07-10 13:02:11,872 - ThreatScanUsb.Config - INFO - Application directory set to: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-07-10 13:02:11,873 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:02:13,912 - ThreatScanUsb.Scanner - WARNING - ClamAV daemon not available: could not connect to clamd server either by unix or network socket
+2025-07-10 13:02:13,933 - ThreatScanUsb.Scanner - ERROR - Error loading YARA rules: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+Traceback (most recent call last):
+  File "C:\Users\cerxx\Desktop\ThreatScanUsb\src\scanner.py", line 389, in __init__
+    self.yara_rules = yara.compile(filepaths={
+                      ~~~~~~~~~~~~^^^^^^^^^^^^
+        f.stem: str(f) for f in rule_files
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+yara.SyntaxError: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+2025-07-10 13:02:13,948 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:02:13,967 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:02:14,092 - ThreatScanUsb.USBMonitor - INFO - USB monitoring loop started
+2025-07-10 13:02:14,092 - ThreatScanUsb.USBMonitor - INFO - USB monitoring started
+2025-07-10 13:02:17,530 - ThreatScanUsb.USBMonitor - INFO - Stopping USB monitoring...
+2025-07-10 13:02:17,530 - ThreatScanUsb.USBMonitor - INFO - USB monitoring stopped
+2025-07-10 13:02:54,519 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/Nyx---Stealthy-Remote-Access-Tool-RAT-main
+2025-07-10 13:02:54,519 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/Nyx---Stealthy-Remote-Access-Tool-RAT-main
+2025-07-10 13:02:54,539 - ThreatScanUsb.Scanner - INFO - Found 294 files to scan on C:/Users/cerxx/Desktop/Nyx---Stealthy-Remote-Access-Tool-RAT-main
+2025-07-10 13:03:25,791 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/Nyx---Stealthy-Remote-Access-Tool-RAT-main completed in 31.3 seconds
+2025-07-10 13:03:25,792 - ThreatScanUsb.Scanner - INFO - Scan results: 294 files scanned, 28 threats found
+2025-07-10 13:03:25,794 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250710-130325.json
+2025-07-10 13:14:36,578 - ThreatScanUsb - INFO - Starting ThreatScanUsb application
+2025-07-10 13:14:36,578 - ThreatScanUsb - INFO - Application directory: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-07-10 13:14:37,070 - ThreatScanUsb.Config - INFO - Application directory set to: C:\Users\cerxx\Desktop\ThreatScanUsb
+2025-07-10 13:14:37,071 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:14:39,114 - ThreatScanUsb.Scanner - WARNING - ClamAV daemon not available: could not connect to clamd server either by unix or network socket
+2025-07-10 13:14:39,116 - ThreatScanUsb.Scanner - ERROR - Error loading YARA rules: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+Traceback (most recent call last):
+  File "C:\Users\cerxx\Desktop\ThreatScanUsb\src\scanner.py", line 389, in __init__
+    self.yara_rules = yara.compile(filepaths={
+                      ~~~~~~~~~~~~^^^^^^^^^^^^
+        f.stem: str(f) for f in rule_files
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+yara.SyntaxError: resources\yara_rules\suspicious_exes.yar(89): unreferenced string "$action_string"
+2025-07-10 13:14:39,118 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:14:39,137 - ThreatScanUsb.Config - INFO - Loaded configuration from C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\config.json
+2025-07-10 13:14:39,261 - ThreatScanUsb.USBMonitor - INFO - USB monitoring loop started
+2025-07-10 13:14:39,261 - ThreatScanUsb.USBMonitor - INFO - USB monitoring started
+2025-07-10 13:14:41,150 - ThreatScanUsb.USBMonitor - INFO - Stopping USB monitoring...
+2025-07-10 13:14:41,150 - ThreatScanUsb.USBMonitor - INFO - USB monitoring stopped
+2025-07-10 13:15:00,907 - ThreatScanUsb.Scanner - INFO - Starting scan of C:/Users/cerxx/Desktop/test malware
+2025-07-10 13:15:00,907 - ThreatScanUsb.Scanner - INFO - Started scan of directory: C:/Users/cerxx/Desktop/test malware
+2025-07-10 13:15:00,908 - ThreatScanUsb.Scanner - INFO - Found 1 files to scan on C:/Users/cerxx/Desktop/test malware
+2025-07-10 13:15:00,941 - ThreatScanUsb.Scanner - INFO - Scan of C:/Users/cerxx/Desktop/test malware completed in 0.0 seconds
+2025-07-10 13:15:00,941 - ThreatScanUsb.Scanner - INFO - Scan results: 1 files scanned, 1 threats found
+2025-07-10 13:15:00,942 - ThreatScanUsb.Scanner - INFO - Scan results saved to C:\Users\cerxx\AppData\Roaming\ThreatScanUsb\scan_results\scan_20250710-131500.json

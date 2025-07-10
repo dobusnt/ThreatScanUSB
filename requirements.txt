@@ -1,0 +1,23 @@
+# USB Security Scanner Dependencies
+
+# USB Detection
+pywin32==306  # For Windows USB detection
+
+# File System and Process Operations
+psutil==5.9.6
+pathlib==1.0.1
+
+# Malware Detection
+yara-python==4.3.1
+python-magic-bin==0.4.14  # For file type detection
+pyclamd==0.4.0  # ClamAV interface
+
+# VirusTotal Integration
+requests==2.31.0
+
+# GUI
+PyQt6==6.6.0  # Modern GUI framework
+
+# Utilities
+tqdm==4.66.1  # Progress bars
+schedule==1.2.1  # For scheduled scans 
