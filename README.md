@@ -1,7 +1,5 @@
 # ThreatScanUSB
 
-**Your USB Security Buddy**
-
 ThreatScanUSB watches over your USB drives the moment they’re plugged in, giving you peace of mind by catching malware, suspicious executables, and sneaky autorun files before they can cause trouble.
 
 ![ThreatScanUSB Screenshot](resources/screenshots/screenshot.png)
