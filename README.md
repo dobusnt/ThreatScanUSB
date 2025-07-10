@@ -147,9 +147,10 @@ src/           # Core code
   config.py
 resources/     # Assets & rules
   yara_rules/
+  screenshots/
   icons/
-tests/        # Automated tests
-docs/         # Extra documentation
+tests/        
+docs/         # Extra documentation (there arent any)
 ```
 
 **Contribute:**
@@ -158,7 +159,7 @@ docs/         # Extra documentation
 2. `git checkout -b feature/YourFeature`
 3. `git commit -m "Add YourFeature"`
 4. `git push origin feature/YourFeature`
-5. Open a PR and we’ll review it!
+5. Open a PR and I’ll review it!
 
 ---
 
